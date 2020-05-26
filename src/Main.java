@@ -163,7 +163,8 @@ class Main {
         }
 
         // Create a point for line segment from p to infinite
-        Point extreme = new Point(100000, p.y);
+        // Point extreme = new Point(100000, p.y);
+        Point extreme = new Point(p.x + 10000, p.y + 10001);
 
         // Count intersections of the above line with sides of polygon
         int count = 0, i = 0;
